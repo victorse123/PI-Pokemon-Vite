@@ -42,8 +42,7 @@ import Nav from './components/nav/Nav.jsx'
 import LadingPag from './components/landingpag/LandingPag.jsx';
 import Cards from "./components/cards/Cards.jsx"
 import Create from "./components/create/Create.jsx"
-import { Route, useLocation} from 'react-router-dom';
-import { Switch } from "react-router-dom/Switch";
+import { Route, Switch, useLocation} from 'react-router-dom';
 import './App.css'
 import { useDispatch, useSelector } from 'react-redux';
 import { addAllPokemon, addAllTypes } from './Redux/actions/actions.js';
