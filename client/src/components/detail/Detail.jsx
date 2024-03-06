@@ -3,8 +3,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { useLocation, useParams } from "react-router-dom";
 import { addPokDetail } from "..//..//Redux/actions/actions";
 import styles from '../detail/Detail.module.css'
-import { imageTypes } from "..//..//Image/imageTypes";
-import { imageImg } from "..//..//Image/imageImg";
+import { imageTypes } from "..//..//assets/Image/imageImg";
+import { imageImg } from "..//..//assets/Image/imageTypes";
 
 const Detail = ()=>{
     const {detail} = useSelector((state)=> state)
