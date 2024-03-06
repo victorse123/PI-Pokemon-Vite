@@ -1,7 +1,7 @@
 // import React from "react";
 import {useLocation} from "react-router-dom"
 import Styles from '..//landingpag/LandingPag.module.css'
-import { imageImg } from "..//..//Image/imageImg"
+import { imageImg } from "..//..//assets/Image/imageImg"
 
 
 const LadingPag = (props)=>{
